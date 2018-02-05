@@ -12,6 +12,7 @@ target 'Tumbleh' do
     # Add additional dependencies
     pod 'OAuthSwift', '~> 1.2.0’
     pod 'OAuthSwiftAlamofire'
+    pod 'AlamofireImage', '~> 3.3'
 
   target 'TumblehTests' do
     inherit! :search_paths

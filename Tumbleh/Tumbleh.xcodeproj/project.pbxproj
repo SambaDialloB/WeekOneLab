@@ -10,12 +10,13 @@
 		2583E974586D4309615D1691 /* Pods_TumblehTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6BA11C1FA5568D19333F81 /* Pods_TumblehTests.framework */; };
 		5CD2977DDA2EB6DF5CE1CF26 /* Pods_TumblehUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0094F538C9D860541B27CE /* Pods_TumblehUITests.framework */; };
 		9A2082BC201FDD250048DC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082BB201FDD250048DC48 /* AppDelegate.swift */; };
-		9A2082BE201FDD250048DC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082BD201FDD250048DC48 /* ViewController.swift */; };
 		9A2082C1201FDD250048DC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082BF201FDD250048DC48 /* Main.storyboard */; };
 		9A2082C3201FDD250048DC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082C2201FDD250048DC48 /* Assets.xcassets */; };
 		9A2082C6201FDD250048DC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082C4201FDD250048DC48 /* LaunchScreen.storyboard */; };
 		9A2082D1201FDD250048DC48 /* TumblehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082D0201FDD250048DC48 /* TumblehTests.swift */; };
 		9A2082DC201FDD250048DC48 /* TumblehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082DB201FDD250048DC48 /* TumblehUITests.swift */; };
+		A248308120227D2600CD9F14 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248308020227D2600CD9F14 /* PhotosViewController.swift */; };
+		A24830842022864400CD9F14 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24830832022864400CD9F14 /* PhotoCell.swift */; };
 		B4B11522DA834CA162BB1BB6 /* Pods_Tumbleh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E598020026F100587EDEFF /* Pods_Tumbleh.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +44,6 @@
 		6C58F3CA98B465676326F3BE /* Pods-TumblehTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblehTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblehTests/Pods-TumblehTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2082B8201FDD250048DC48 /* Tumbleh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbleh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2082BB201FDD250048DC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A2082BD201FDD250048DC48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A2082C0201FDD250048DC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A2082C2201FDD250048DC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A2082C5201FDD250048DC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,8 @@
 		9A2082D7201FDD250048DC48 /* TumblehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2082DB201FDD250048DC48 /* TumblehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblehUITests.swift; sourceTree = "<group>"; };
 		9A2082DD201FDD250048DC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A248308020227D2600CD9F14 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A24830832022864400CD9F14 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		B8E598020026F100587EDEFF /* Pods_Tumbleh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbleh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF12EA13B0863316823F783 /* Pods-Tumbleh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbleh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbleh/Pods-Tumbleh.debug.xcconfig"; sourceTree = "<group>"; };
 		EC0094F538C9D860541B27CE /* Pods_TumblehUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblehUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,9 +116,10 @@
 		9A2082BA201FDD250048DC48 /* Tumbleh */ = {
 			isa = PBXGroup;
 			children = (
+				A248308020227D2600CD9F14 /* PhotosViewController.swift */,
 				9A2082BB201FDD250048DC48 /* AppDelegate.swift */,
-				9A2082BD201FDD250048DC48 /* ViewController.swift */,
 				9A2082BF201FDD250048DC48 /* Main.storyboard */,
+				A24830832022864400CD9F14 /* PhotoCell.swift */,
 				9A2082C2201FDD250048DC48 /* Assets.xcassets */,
 				9A2082C4201FDD250048DC48 /* LaunchScreen.storyboard */,
 				9A2082C7201FDD250048DC48 /* Info.plist */,
@@ -345,12 +348,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Tumbleh/Pods-Tumbleh-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwiftAlamofire.framework",
 			);
@@ -462,8 +467,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2082BE201FDD250048DC48 /* ViewController.swift in Sources */,
 				9A2082BC201FDD250048DC48 /* AppDelegate.swift in Sources */,
+				A24830842022864400CD9F14 /* PhotoCell.swift in Sources */,
+				A248308120227D2600CD9F14 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
