@@ -15,6 +15,7 @@
 		9A2082C6201FDD250048DC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082C4201FDD250048DC48 /* LaunchScreen.storyboard */; };
 		9A2082D1201FDD250048DC48 /* TumblehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082D0201FDD250048DC48 /* TumblehTests.swift */; };
 		9A2082DC201FDD250048DC48 /* TumblehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082DB201FDD250048DC48 /* TumblehUITests.swift */; };
+		A20AB6A92030F46900206139 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20AB6A82030F46900206139 /* DetailViewController.swift */; };
 		A248308120227D2600CD9F14 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248308020227D2600CD9F14 /* PhotosViewController.swift */; };
 		A24830842022864400CD9F14 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24830832022864400CD9F14 /* PhotoCell.swift */; };
 		B4B11522DA834CA162BB1BB6 /* Pods_Tumbleh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E598020026F100587EDEFF /* Pods_Tumbleh.framework */; };
@@ -54,6 +55,7 @@
 		9A2082D7201FDD250048DC48 /* TumblehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2082DB201FDD250048DC48 /* TumblehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblehUITests.swift; sourceTree = "<group>"; };
 		9A2082DD201FDD250048DC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20AB6A82030F46900206139 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A248308020227D2600CD9F14 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A24830832022864400CD9F14 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		B8E598020026F100587EDEFF /* Pods_Tumbleh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbleh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				A248308020227D2600CD9F14 /* PhotosViewController.swift */,
+				A20AB6A82030F46900206139 /* DetailViewController.swift */,
 				9A2082BB201FDD250048DC48 /* AppDelegate.swift */,
 				9A2082BF201FDD250048DC48 /* Main.storyboard */,
 				A24830832022864400CD9F14 /* PhotoCell.swift */,
@@ -470,6 +473,7 @@
 				9A2082BC201FDD250048DC48 /* AppDelegate.swift in Sources */,
 				A24830842022864400CD9F14 /* PhotoCell.swift in Sources */,
 				A248308120227D2600CD9F14 /* PhotosViewController.swift in Sources */,
+				A20AB6A92030F46900206139 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
